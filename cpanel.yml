@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+        -export DEPLOYPATH=/home/blacktoc/public_html/
+        -/bin/cpindex.html $DEPLOYPATH
+        -/bin/cp style.css $DEPLOYPATH
